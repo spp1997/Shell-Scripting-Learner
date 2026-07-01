@@ -1,0 +1,7 @@
+#! /usr/bin/bash
+#
+#Array Example
+fruits=("apple" "banana" "cherry")
+for fruit in "${fruits[@]}"; do
+	echo $fruit
+done
